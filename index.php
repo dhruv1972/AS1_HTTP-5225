@@ -1,7 +1,7 @@
 <?php
 $host = 'localhost';
 $username = 'root';
-$password = ''; // Replace with your own if needed
+$password = ''; 
 $database = 'walmart';
 
 $conn = new mysqli($host, $username, $password, $database);
@@ -19,7 +19,7 @@ $result = $conn->query($sql);
 <head>
     <meta charset="UTF-8">
     <title>Walmart Inventory</title>
-    <!-- Add this in your <head> section -->
+   
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 <style>
     body {
